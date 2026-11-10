@@ -1,0 +1,10 @@
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                    07/31/2026  09:47:19  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.4.0, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE .\Objects\STARTUP.obj, .\Objects\Ex3_led.obj TO .\Objects\Ex3 PRINT (.\Listings\Ex3.m51) RAM
+>> SIZE (256)
+
+
+*** FATAL ERROR L218: NOT AN OBJECT FILE
+    FILE: .\Objects\STARTUP.obj

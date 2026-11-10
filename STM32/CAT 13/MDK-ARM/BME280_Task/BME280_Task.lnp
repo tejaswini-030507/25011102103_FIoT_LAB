@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"bme280_task\startup_stm32f401xe.o"
+"bme280_task\main.o"
+"bme280_task\stm32f4xx_it.o"
+"bme280_task\stm32f4xx_hal_msp.o"
+"bme280_task\bme280.o"
+"bme280_task\esplib.o"
+"bme280_task\stm32f4xx_hal_i2c.o"
+"bme280_task\stm32f4xx_hal_i2c_ex.o"
+"bme280_task\stm32f4xx_hal_rcc.o"
+"bme280_task\stm32f4xx_hal_rcc_ex.o"
+"bme280_task\stm32f4xx_hal_flash.o"
+"bme280_task\stm32f4xx_hal_flash_ex.o"
+"bme280_task\stm32f4xx_hal_flash_ramfunc.o"
+"bme280_task\stm32f4xx_hal_gpio.o"
+"bme280_task\stm32f4xx_hal_dma_ex.o"
+"bme280_task\stm32f4xx_hal_dma.o"
+"bme280_task\stm32f4xx_hal_pwr.o"
+"bme280_task\stm32f4xx_hal_pwr_ex.o"
+"bme280_task\stm32f4xx_hal_cortex.o"
+"bme280_task\stm32f4xx_hal.o"
+"bme280_task\stm32f4xx_hal_exti.o"
+"bme280_task\stm32f4xx_hal_uart.o"
+"bme280_task\system_stm32f4xx.o"
+--strict --scatter "BME280_Task\BME280_Task.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "BME280_Task.map" -o BME280_Task\BME280_Task.axf

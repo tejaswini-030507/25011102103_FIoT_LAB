@@ -1,0 +1,50 @@
+C51 COMPILER V9.60.7.0   EX_1_2LED                                                         07/24/2026 12:18:23 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE EX_1_2LED
+OBJECT MODULE PLACED IN .\Objects\Ex-1_2LED.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE Ex-1_2LED.c OMF2 OPTIMIZE(8,SPEED) BROWSE DEBUG PRINT(.\Listings\Ex-1_2L
+                    -ED.lst) TABS(2) OBJECT(.\Objects\Ex-1_2LED.obj)
+
+line level    source
+
+   1          #include <reg51.h>
+   2          sbit ledpin1 = P1^7;
+   3          sbit ledpin2 = P0^0;
+   4          
+   5          void delay(){
+   6   1        int i,j;
+   7   1        for(i=0;i<400;i++){
+   8   2          for(j=0;j<400;j++){
+   9   3          }
+  10   2        }
+  11   1      }
+  12          
+  13          void main(){
+  14   1        while(1){   
+  15   2          ledpin1 = 1;
+  16   2          ledpin2 = 0;
+  17   2          delay();
+  18   2          ledpin1 = 0;
+  19   2          ledpin2 = 1;
+  20   2          delay();
+  21   2        }
+  22   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     45    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
