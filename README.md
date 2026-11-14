@@ -32,12 +32,6 @@ Experiments performed using the 8051 microcontroller.
 | CAT 7 | Task 7B | [TASK7B](8051/CAT7/TASK7B/) |
 | CAT 7 | Task 7C | [TASK7C](8051/CAT7/TASK7C/) |
 
-### Common Libraries
-
-[Common Libraries](8051/Common%20Libraries/)
-
-Contains reusable header files and functions used across multiple 8051 experiments.
-
 ---
 
 ## 2. STM32 Microcontroller Experiments
@@ -48,7 +42,9 @@ Experiments performed using STM32 microcontrollers and STM32 HAL libraries.
 |---|---|---|
 | CAT 8 | STM32 Experiments | [CAT8](STM32/CAT8/) |
 | CAT 9 | STM32 Experiments | [CAT9](STM32/CAT9/) |
-| CAT 10 | ESP Module Communication | [CAT10](STM32/CAT10/) |
+| CAT 10 | Task 10A | [TASK10A](STM32/CAT10/TASK10A/) |
+| CAT 10 | Task 10B | [TASK10B](STM32/CAT10/TASK10B/) |
+| CAT 10 | Task 10C | [TASK10C](STM32/CAT10/TASK10C/) |
 | CAT 11 | Task 11A – TCP Server Configuration | [TASK11A](STM32/CAT11/TASK11A/) |
 | CAT 11 | Task 11B – HTTP Webpage Hosting | [TASK11B](STM32/CAT11/TASK11B/) |
 | CAT 12 | Task 12A – LED Blinking | [TASK12A](STM32/CAT12/TASK12A/) |
@@ -60,7 +56,15 @@ Experiments performed using STM32 microcontrollers and STM32 HAL libraries.
 
 ---
 
-## 3. Technologies and Components Used
+## 3. Common Libraries
+
+[Common Libraries](Common%20Libraries/)
+
+Contains reusable libraries and header files used across the experiments.
+
+---
+
+## 4. Technologies and Components Used
 
 ### Microcontrollers
 - 8051 Microcontroller
@@ -91,7 +95,7 @@ Experiments performed using STM32 microcontrollers and STM32 HAL libraries.
 
 ---
 
-## 4. Repository Structure
+## 5. Repository Structure
 
 ```text
 25011102103_FIoT_LAB/
@@ -113,16 +117,18 @@ Experiments performed using STM32 microcontrollers and STM32 HAL libraries.
 │   ├── CAT6/
 │   │   ├── TASK6A/
 │   │   └── TASK6B/
-│   ├── CAT7/
-│   │   ├── TASK7A/
-│   │   ├── TASK7B/
-│   │   └── TASK7C/
-│   └── Common Libraries/
+│   └── CAT7/
+│       ├── TASK7A/
+│       ├── TASK7B/
+│       └── TASK7C/
 │
 ├── STM32/
 │   ├── CAT8/
 │   ├── CAT9/
 │   ├── CAT10/
+│   │   ├── TASK10A/
+│   │   ├── TASK10B/
+│   │   └── TASK10C/
 │   ├── CAT11/
 │   │   ├── TASK11A/
 │   │   └── TASK11B/
@@ -133,6 +139,8 @@ Experiments performed using STM32 microcontrollers and STM32 HAL libraries.
 │   ├── CAT13/
 │   ├── CAT14/
 │   └── CAT15/
+│
+├── Common Libraries/
 │
 └── README.md
 ```
