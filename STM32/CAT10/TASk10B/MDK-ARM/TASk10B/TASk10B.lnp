@@ -1,0 +1,24 @@
+--cpu=Cortex-M4.fp.sp
+"task10b\startup_stm32f401xe.o"
+"task10b\main.o"
+"task10b\stm32f4xx_it.o"
+"task10b\stm32f4xx_hal_msp.o"
+"task10b\stm32f4xx_hal_uart.o"
+"task10b\stm32f4xx_hal_rcc.o"
+"task10b\stm32f4xx_hal_rcc_ex.o"
+"task10b\stm32f4xx_hal_flash.o"
+"task10b\stm32f4xx_hal_flash_ex.o"
+"task10b\stm32f4xx_hal_flash_ramfunc.o"
+"task10b\stm32f4xx_hal_gpio.o"
+"task10b\stm32f4xx_hal_dma_ex.o"
+"task10b\stm32f4xx_hal_dma.o"
+"task10b\stm32f4xx_hal_pwr.o"
+"task10b\stm32f4xx_hal_pwr_ex.o"
+"task10b\stm32f4xx_hal_cortex.o"
+"task10b\stm32f4xx_hal.o"
+"task10b\stm32f4xx_hal_exti.o"
+"task10b\system_stm32f4xx.o"
+--strict --scatter "TASk10B\TASk10B.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "TASk10B.map" -o TASk10B\TASk10B.axf
